@@ -1,0 +1,38 @@
+#countdown{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
+    color: #fff;
+  }
+  
+  #countdown > div{
+    display: inline-block;
+    width: 22%;
+    margin-right: 2%;
+    background-color: #333;
+    border-radius: 10px;
+    height: 100%;
+  }
+  
+  #countdown div > span{
+    display: block;
+    padding: 10px 0;
+    font-size: 50px;
+    font-weight: 100;
+  }
+  
+  .smalltext{
+    padding-top: 5px;
+    font-size: 16px;
+    color: #000;
+  }
+  
+  @media only screen and (max-width: 768px){
+    #countdown > div{
+      width: 45%;
+      margin-right: 5%;
+    }
+  }
+  
