@@ -146,10 +146,18 @@ section.page-container {
   margin: auto;
   width: 90%;
   max-width: 800px;
-  height: 100vh;
+  min-height: 100vh;
   position: relative;
   text-align: center;
 }
+
+/* section.page-container.full-width{
+  max-width: 70vw!important;
+} */
+
+/* section.section-container.full-width{
+  width: 100vw!important;
+} */
 
 #intro {
   max-width: 800px;
