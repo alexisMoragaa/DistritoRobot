@@ -169,10 +169,10 @@ section.page-container {
 
 .section-container {
   position: absolute;
-  top: 45%;
+  top: 10%;
   left: 50%;
   width: 90%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, 0%);
   text-align: center;
 }
 .section-container h4 {
