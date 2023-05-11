@@ -5,7 +5,7 @@
 /* -------------------------------- 
 Small Window Size and Mobile Style
 -------------------------------- */
-@media screen and (max-width: 875px) {
+@media screen and (max-width: 875px) {  
   .button-container {
     margin: 10px 10px !important;
   }
@@ -92,6 +92,7 @@ p.intro-des span {
   width: 100%;
   height: 70px;
   background: linear-gradient(to bottom, white 50%, rgba(255, 255, 255, 0) 100%);
+  max-width: 100vw;
 }
 
 .nav,
