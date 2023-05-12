@@ -13,6 +13,10 @@ Small Window Size and Mobile Style
   h2 {
     font-size: 10vw !important;
   }
+
+  #intro .section-container {
+    margin-top: 10px!important;
+}
 }
 @media screen and (max-width: 550px) {
   .nav,
@@ -45,13 +49,26 @@ html,
 body {
   font-family: "Lato", sans-serif;
   font-weight: 300;
+  background-image: url('../img/Aluminio2.jpg');
+
 }
 
+html{
+  border: 35px solid transparent;
+  /* padding: 15px; */
+  border-bottom: 0px transparent;
+  border-top: 0px transparent;
+  border-image: url('../img/Franja seguridad.jpeg') 30 round;
+
+}
+
+
 h2 {
-  font-size: 80px;
+  font-size: 70px;
   position: relative;
   color: #5b85c0;
-  background-image: -webkit-linear-gradient(90deg, #a558d4 0%, #34619e 80%);
+  /* background-image: -webkit-linear-gradient(90deg, #a558d4 0%, #34619e 80%); */
+  background-image: -webkit-linear-gradient(90deg, #dc3545 0%, #ffc107 80%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-animation: hue 60s infinite linear;
@@ -62,9 +79,10 @@ p.intro-des {
   font-size: 20px;
   line-height: 35px;
   margin-top: 50px;
+  color: #ffff;
 }
 p.intro-des a {
-  color: #3c3c3c;
+  color: #ffff;
 }
 p.intro-des span {
   font-size: 15px;
@@ -90,31 +108,32 @@ p.intro-des span {
   transform: translateX(-50%);
   z-index: 10;
   width: 100%;
-  height: 70px;
-  background: linear-gradient(to bottom, white 50%, rgba(255, 255, 255, 0) 100%);
+  height: 100px;
+  background: linear-gradient(to bottom, #ffc107 50%, rgba(255, 255, 255, 0) 100%);
   max-width: 100vw;
 }
 
 .nav,
 .navbar {
-  width: 500px;
+  /* min-width: 500px; */
   margin: auto;
-  margin-top: 20px;
+  margin-top: 10px;
   font-family: "Lato", sans-serif;
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 400;
   letter-spacing: 2px;
   list-style: none;
   display: -webkit-flex;
   display: flex;
-  -webkit-justify-content: space-between;
-  justify-content: space-between;
-  flex-wrap: nowrap;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 .nav a,
 .navbar a {
   color: #3c3c3c;
   text-decoration: none;
+  font-weight: bold;
 }
 .nav .nav-item,
 .navbar .nav-item {
@@ -164,12 +183,12 @@ section.page-container {
   max-width: 800px;
 }
 #intro .section-container {
-  margin-top: 70px;
+  margin-top: 50px;
 }
 
 .section-container {
   position: absolute;
-  top: 10%;
+  top: 15%;
   left: 50%;
   width: 90%;
   transform: translate(-50%, 0%);
@@ -729,4 +748,13 @@ p.reference a {
 .button-water-fill.wave-black .button {
   color: black;
   background-image: url("https://s32.postimg.org/g5kiaqxit/wave_black.png");
+}
+
+
+.t-w{
+  color: #fff!important;
+}
+
+.f-w-400{
+  font-weight: 400!important;
 }
