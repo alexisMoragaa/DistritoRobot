@@ -40,13 +40,14 @@
 			<li class="nav-item active"><a href="#intro">Proxima Fecha</a></li>
 			<li class="nav-item"><a href="#flip">Tabla de clasificaciones</a></li>
 			<li class="nav-item"><a href="#fechas_anteriores">Fechas Anteriores</a></li>
+			<li class="nav-item"><a href="inscription.html">Inscrpción</a></li>
 	
 		</ul>
 	</nav>
 
 	<!-- Intro Page -->
 	<section class="page-container" id="intro">
-	  	<section class="section-container">
+		<section class="section-container">
 			<h2 class="title ">Liga Batalla de Robots</h2>
 			<p class="intro-des"> 
                 ¡Bienvenido al mundo de las peleas de robots! Aquí la emoción no tiene límites. Estamos emocionados por anunciar que nuestro próximo evento está cerca, y la cuenta regresiva ha comenzado. 
@@ -57,33 +58,33 @@
 			<div class="col-md-12">
 				<div id="countdown">
 					<div>
-					  <span class="days"></span>
-					  <div class="smalltext">Días</div>
+						<span class="days"></span>
+						<div class="smalltext">Días</div>
 					</div>
 					<div>
-					  <span class="hours"></span>
-					  <div class="smalltext">Horas</div>
+						<span class="hours"></span>
+						<div class="smalltext">Horas</div>
 					</div>
 					<div>
-					  <span class="minutes"></span>
-					  <div class="smalltext">Minutos</div>
+						<span class="minutes"></span>
+						<div class="smalltext">Minutos</div>
 					</div>
 					<div>
-					  <span class="seconds"></span>
-					  <div class="smalltext">Segundos</div>
+						<span class="seconds"></span>
+						<div class="smalltext">Segundos</div>
 					</div>
-				  </div>
+				</div>
 			</div>
 
 
 
-	  	</section>
+		</section>
 	</section>
 	
 	<!-- 2-D Flip -->
 	<section class="page-container" id="flip">
-	  	<section class="section-container">
-	    	<h4 class="t-w f-w-400">Tabla de clasificaciones</h4>
+		<section class="section-container">
+			<h4 class="t-w f-w-400">Tabla de clasificaciones</h4>
 			
 			<div class="table-responsive">
 				<table class="table t-w">
@@ -199,81 +200,73 @@
 							<td>1</td>
 						</tr>
 
-
-
-
-						
 					</tbody>
 				</table>
 			</div>
 
  
-	  </section>
+		</section>
 	</section>
 
 	<!-- Imagenes con fechas anteriores -->
 	<section class="page-container full-width" id="fechas_anteriores">
 		<section class="section-container full-width">
-		  <h4 class="title f-w-400 t-w">Fechas Anteriores</h4>
-		  
-		
-		<!-- Set up your HTML -->
-		<div class="owl-carousel">
-			<div>
-				<img src="img/fecha1.jpeg" alt="">
+			<h4 class="title f-w-400 t-w">Fechas Anteriores</h4>
+			<!-- Set up your HTML -->
+			<div class="owl-carousel">
+				<div>
+					<img src="img/fecha1.jpeg" alt="">
+				</div>
+
+				<div>
+					<img src="img/fecha2.jpeg" alt="">
+				</div>
+				
 			</div>
-
-			<div>
-				<img src="img/fecha2.jpeg" alt="">
-			</div>
-			
-		</div>
 		
-
-
 		</section>
   	</section>
 	
-	  <script src="js/contador.js?v=1"></script>
-	  <script src="js/index.js?v=1"></script>
-	  <script src="js/owl.carousel.min.js"></script>
+	<script src="js/contador.js?v=1"></script>
+	<script src="js/index.js?v=1"></script>
+	<script src="js/owl.carousel.min.js"></script>
 
 
-	  <script>
-		$(document).ready(function(){
-			$(".owl-carousel").owlCarousel({
-				loop:true,
-    margin:10,
-    responsiveClass:true,
-    responsive:{
-        0:{
-            items:1,
-            nav:true
-        },
-        600:{
-            items:1,
-            nav:false
-        },
-        1000:{
-            items:1,
-            nav:true,
-            loop:false
-        }
-    }
-			});
+	<script>
+	$(document).ready(function(){
+		$(".owl-carousel").owlCarousel({
+			loop:true,
+			margin:10,
+			responsiveClass:true,
+			responsive:{
+				0:{
+					items:1,
+					nav:true
+				},
+				600:{
+					items:1,
+					nav:false
+				},
+				1000:{
+					items:1,
+					nav:true,
+					loop:false
+				}
+			}
 		});
-	  </script>
+	});
+	</script>
 
-	  <style>
-		.owl-nav {
-			color: #fff!important;
-			font-weight: bold;
-			font-size: 35px;
-		}
-		.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot > span {
-			padding: 0px 10px!important;
-		}
-	  </style>
+	<style>
+	.owl-nav {
+		color: #fff!important;
+		font-weight: bold;
+		font-size: 35px;
+	}
+	.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot > span {
+		padding: 0px 10px!important;
+	}
+	</style>
 
 </body>
 </html>
